@@ -21,7 +21,6 @@ const Board = () => {
       return !prev;
     });
   };
-  // console.log(handleSquareClick(5));
   const renderSquare = position => {
     return (
       <Square
