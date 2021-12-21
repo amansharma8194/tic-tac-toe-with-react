@@ -41,3 +41,13 @@ button {
     }
   }
 }
+.history {
+  list-style-type: none;
+  & > * {
+    margin: 1rem;
+  }
+}
+.hist-Btn {
+  font-size: 1.5rem;
+  color: rebeccapurple;
+}
